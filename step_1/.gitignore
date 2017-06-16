@@ -87,3 +87,6 @@ fabric.properties
 # Angel
 .env
 log.txt
+
+# Ignore generated JSON databases
+*_db.json

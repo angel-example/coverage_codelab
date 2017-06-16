@@ -39,10 +39,6 @@ Future<Angel> createServer() async {
   // Routes in `app.after` will only run if the request was not terminated by a prior handler.
   // Usually, this is a situation in which you'll want to throw a 404 error.
   // On 404's, let's redirect the user to a pretty error page.
-  app.after.add((req) {
-    print('wtf: ${req.uri}');
-    return true;
-  });
   app.after.add((ResponseContext res) => res.redirect('/not-found.html'));
 
   // Enable GZIP and DEFLATE compression (conserves bandwidth)
