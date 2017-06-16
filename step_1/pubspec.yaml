@@ -1,0 +1,19 @@
+description: "An easily-extensible web server framework in Dart."
+homepage: "https://github.com/angel-dart/angel"
+name: "dartcov"
+publish_to: "none"
+dependencies: 
+  angel_common: "^1.0.0"
+  angel_file_service: ^1.0.0
+  coverage: ^0.7.2
+  lcov: ^1.0.0
+dev_dependencies: 
+  angel_hot: "^1.0.0"
+  angel_test: "^1.0.0"
+  browser: ^0.10.0
+  dart_to_js_script_rewriter: ^1.0.0
+  test: "^0.12.0"
+environment: 
+  sdk: ">=1.19.0"
+transformers:
+  - dart_to_js_script_rewriter
