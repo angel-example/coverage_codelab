@@ -195,6 +195,12 @@ Next, in the `createServer` function, right under the `print` call, add a call
 to `app.configure`:
 
 ```dart
+await app.configure(repo.configureServer());
+```
+
+Your `lib/dartcov.dart` should look like this now:
+
+```dart
 Future<Angel> createServer() async {
   /// Generates and configures an Angel server.
   var app = new Angel();
