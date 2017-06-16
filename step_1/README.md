@@ -244,4 +244,4 @@ Visit the following pages:
 Congratulations! You've just initialized an Angel project, generated model files,
 and even added a REST API to it! Feel empowered?
 
-Move on [Step 2](../step2/README.md), where we start writing some actual business logic.
+Move on [Step 2](../step_2/README.md), where we start writing some actual business logic.
